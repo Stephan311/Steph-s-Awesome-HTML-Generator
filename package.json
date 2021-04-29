@@ -1,0 +1,19 @@
+{
+  "name": "steph-s-awesome-html-generator",
+  "version": "1.0.0",
+  "description": "My Awesome HTML Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephan311/Steph-s-Awesome-HTML-Generator.git"
+  },
+  "author": "Stephan du Plooy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stephan311/Steph-s-Awesome-HTML-Generator/issues"
+  },
+  "homepage": "https://github.com/Stephan311/Steph-s-Awesome-HTML-Generator#readme"
+}
