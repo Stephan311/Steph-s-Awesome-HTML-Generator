@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Stephan311/Steph-s-Awesome-HTML-Generator/issues"
   },
-  "homepage": "https://github.com/Stephan311/Steph-s-Awesome-HTML-Generator#readme"
+  "homepage": "https://github.com/Stephan311/Steph-s-Awesome-HTML-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
 }
