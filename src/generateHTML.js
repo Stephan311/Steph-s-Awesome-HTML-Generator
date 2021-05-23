@@ -48,6 +48,20 @@ function generateHTML(answers) {
     </div>
 </div>
 </div>`
+} else if (answer.role === "intern") {
+
+  return `
+  <div class="container">
+  <div class="row align-items-start">
+    <div class="col">
+      <h3>${answer.role}</h3>
+      <h3>${answer.school}</h3>
+      <p>${answer.name}</p>
+      <p>${answer.ID}</p>
+      <p>${answer.Email}</p>
+    </div>
+</div>
+</div>`
 }
 
 })
