@@ -1,31 +1,25 @@
 const Engineer = require('../lib/Engineer');
+const Employee = require('../lib/Employee')
 
 describe('Engineer', () => {
     describe('Initialization', () => {
 
-        it("shoud create an engineer with all the data filled out")
-
-        const answers = {
-            name = 'Steph',
-            id = '1',
-            email = 'hello@awesome.com',
-            role = "Employee",
-            github = 'stephan311'
-        }
-
-        const obj = new Engineer(answers);
-
-        expect(obj.answers).toEqual(answers);
+        it("returns the engineer's name", () => {
+            const engineer = new Engineer("steph", 1, "awesome@awesome.com", "Stephan311")
+    
+            expect(engineer.getName()).toEqual("steph");
+        })
+     
     })
 
     //error
-    it("should throw an error if not provided any values", () => {
+    // it("should throw an error if not provided any values", () => {
 
-        const cb = () => new Engineer();
-        const err = new Error(
-            "Expected a paramater 'answers' to be filled"
-        );
+    //     const cb = () => new Engineer();
+    //     const err = new Error(
+    //         "Expected a paramater 'answers' to be filled"
+    //     );
 
-        expect(cb).toThrowError(err);
-    })
+    //     expect(cb).toThrowError(err);
+    // })
 })
