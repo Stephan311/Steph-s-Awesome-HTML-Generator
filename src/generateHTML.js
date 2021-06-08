@@ -7,7 +7,7 @@ function generateHTML(answers) {
 
     
       const generated = answers.map(answer => {
-    if (answer.role === "manager") {
+    if (answer.role === "Manager") {
       console.log("herooo");
 
        return `
@@ -25,54 +25,54 @@ function generateHTML(answers) {
   <div class="row">
     <div class="col">
       <h3  style="font-size: 50px;" >${answer.role}</h3>
-      <h3>${answer.managerP}</h3>
-      <p>${answer.name}</p>
-      <p>${answer.ID}</p>
-      <p>${answer.Email}</p>
+      <h3> Office Number: ${answer.managerP}</h3>
+      <p>Name: ${answer.name}</p>
+      <p> ID: ${answer.ID}</p>
+      <p> Email: ${answer.Email}</p>
     </div>
 </div>
 </div>
   </body>
   </html>`
     
-} else if (answer.role === "engineer") {
+} else if (answer.role === "Engineer") {
 
   return `
   <div style="background-color:cornflowerblue; border-radius: 20px; margin-top: 20px; color: white;" class="container">
   <div class="row">
     <div class="col">
       <h3  style="font-size: 50px;" >${answer.role}</h3>
-      <h3>${answer.Github}</h3>
-      <p>${answer.name}</p>
-      <p>${answer.ID}</p>
-      <p>${answer.Email}</p>
+      <h3>Github: ${answer.Github}</h3>
+      <p>Name: ${answer.name}</p>
+      <p>ID: ${answer.ID}</p>
+      <p>Email: ${answer.Email}</p>
     </div>
 </div>
 </div>`
-} else if (answer.role === "intern") {
+} else if (answer.role === "Intern") {
 
   return `
   <div style="background-color:cornflowerblue; border-radius: 20px; margin-top: 20px; color: white;" class="container">
   <div class="row">
     <div class="col">
       <h3  style="font-size: 50px;" >${answer.role}</h3>
-      <h3>${answer.school}</h3>
-      <p>${answer.name}</p>
-      <p>${answer.ID}</p>
-      <p>${answer.Email}</p>
+      <h3>School: ${answer.school}</h3>
+      <p>Name: ${answer.name}</p>
+      <p>ID: ${answer.ID}</p>
+      <p>Email: ${answer.Email}</p>
     </div>
 </div>
 </div>`
-} else if (answer.role === "employee") {
+} else if (answer.role === "Employee") {
 
   return `
   <div style="background-color:cornflowerblue; border-radius: 20px; margin-top: 20px; color: white;" class="container">
   <div class="row">
     <div class="col">
       <h3  style="font-size: 50px;" >${answer.role}</h3>
-      <p>${answer.name}</p>
-      <p>${answer.ID}</p>
-      <p>${answer.Email}</p>
+      <p>Name: ${answer.name}</p>
+      <p>ID: ${answer.ID}</p>
+      <p>Email: ${answer.Email}</p>
     </div>
 </div>
 </div>`
