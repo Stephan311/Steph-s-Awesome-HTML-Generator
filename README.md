@@ -5,3 +5,5 @@ This is a node application that uses node.js, inquirer, and classes to create a 
 Link to Repo: https://github.com/Stephan311/Steph-s-Awesome-HTML-Generator
 
 Screen Recording of program in action:
+
+https://user-images.githubusercontent.com/76667667/121181860-7614eb80-c830-11eb-8794-5625c0771800.mp4
